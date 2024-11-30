@@ -9,13 +9,65 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    /* --foreground: #ededed; */
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
+  background-color: rgba(218, 221, 222, 0.221);
   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.posts_table {
+  border: 1px solid rgba(204, 198, 198, 0.341);
+  border-radius: 8px;
+
+}
+
+.posts_table thead.ant-table-thead tr th.ant-table-cell {
+  background-color: #deddde;
+  /* border-radius: 20px; */
+  /* border-top-left-radius: 8px; */
+}
+
+.posts_table .ant-pagination.ant-table-pagination .ant-pagination-item-active,
+.ant-drawer-body .ant-input-outlined:hover,
+.ant-drawer-body .ant-input-outlined:focus {
+  border-color: #7e22ce;
+
+}
+
+.posts_table .ant-pagination.ant-table-pagination .ant-pagination-item-active a {
+  color: #7e22ce;
+
+}
+
+.ant-modal-root .ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ant-modal-footer .ant-btn:nth-child(2),
+.ant-popconfirm-buttons .ant-btn:nth-child(2) {
+  background-color: #7e22ce;
+
+
+}
+
+.ant-modal-footer .ant-btn:nth-child(2):hover,
+.ant-popconfirm-buttons .ant-btn:nth-child(2):hover,
+.ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+  color: #7e22ce;
+  background-color: white !important;
+  border-color: #7e22ce;
+}
+
+.ant-modal-footer .ant-btn:first-child:hover,
+.ant-popconfirm-buttons .ant-btn:first-child:hover {
+  color: black;
+  border-color: black;
+
 }
