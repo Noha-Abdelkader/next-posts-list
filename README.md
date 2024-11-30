@@ -2,7 +2,10 @@ This is a list of posts & user able to add,update and delete post using next fra
 
 ## Getting Started
 
-First, run the development server:
+First 
+You can clone repo then run command npm install for install packages so you can be able to run it.
+
+After finish, run the development server:
 
 ```bash
 npm run dev
@@ -12,8 +15,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`.
-
 ## Images
 
 ![1](https://github.com/user-attachments/assets/e8ba074a-6e96-4ce7-a808-d413e2c8428d)
@@ -21,6 +22,4 @@ You can start editing the page by modifying `app/page.tsx`.
 ![3](https://github.com/user-attachments/assets/d0736016-a592-43c6-96bd-5a0b75b6e28d)
 ![4](https://github.com/user-attachments/assets/6ffed32f-2690-4dbd-9c41-43b0d34992b0)
 
-
-## Deploy on Vercel
 
